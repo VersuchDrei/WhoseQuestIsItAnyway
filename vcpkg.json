@@ -1,13 +1,23 @@
 {
-  "name": "example",
-  "version": "1",
-  "dependencies": [
-    "autotoml",
-    "boost-stl-interfaces",
-    "fmt",
-    "pcg",
-    "rsm-binary-io",
-    "spdlog",
-    "xbyak"
-  ]
+    "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg/master/scripts/vcpkg.schema.json",
+    "name": "whosequestisitanyway",
+    "version-string": "1.5.0",
+    "port-version": 0,
+    "description": "",
+    "homepage": "",
+    "license": "MIT",
+    "features": {
+        "plugin": {
+            "description": "Build the SKSE plugin.",
+            "dependencies": [
+              "tomlplusplus",
+              "articuno",
+              "commonlibsse-ng",
+              "pcg"
+            ]
+        }
+    },
+    "default-features": [
+        "plugin"
+    ]
 }

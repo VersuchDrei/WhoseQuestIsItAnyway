@@ -1,4 +1,0 @@
-[General]
-printQuestFormID = false	# Set to true to append the form ID of the quest to the quest's name.
-totalMessageCount = 5	# Indicates the total number of messages in the random message pool. Max 99.
-useRandomMessages = false	# Set to true to randomly select a message to print as a notification. false defaults to message 00.
